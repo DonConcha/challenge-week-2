@@ -1,0 +1,78 @@
+* { 
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'poppin' , sans-serif;
+ }
+
+ body{ 
+    background: cornflowerblue;
+    color: white;
+    
+ }
+
+ header{
+ position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+ }
+ 
+ .logo {
+ font-size: 35px;
+ color: white;
+ text-decoration: none;
+ font-weight: 600;
+ }
+
+ nav a {font-size: 18px;
+ color: whitesmoke;
+ text-decoration: none;
+ font-weight: 300;
+ margin-left: 35px;
+ transition: .3s;
+ }
+
+ nav a:hover { 
+    color: gray;
+ }
+
+ .hero-banner {
+    display: flex;
+    align-items: flexbox;
+    padding: 10%;
+    font-size: 15px;
+    max-height: 10px;
+ }
+
+ .page-wrapper {
+    display: flexbox;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+ }
+
+ .work-selection {
+   height: 100vh;
+   padding: 0 10%;
+   bottom: 300px;
+   position: relative;
+   font-size: 25px;
+   
+ }
+
+ .contact-selection {
+   height: 100vh;
+   bottom: -200px;
+   position: relative;
+   font-size: 25px;
+ }
+ 
+ 
+ 
