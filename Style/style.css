@@ -1,87 +1,114 @@
 * { 
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- font-family: 'poppin' , sans-serif;
- }
-
- body{ 
-    background: cornflowerblue;
-    color: white;
-    
- }
-
- header{
- position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
- }
- 
- .logo {
- font-size: 35px;
- color: white;
- text-decoration: none;
- font-weight: 600;
- }
-
- nav a {font-size: 18px;
- color: whitesmoke;
- text-decoration: none;
- font-weight: 300;
- margin-left: 35px;
- transition: .3s;
- }
-
- nav a:hover { 
-    color: gray;
- }
-
- .hero-banner {
-    display: flex;
-    align-items: flexbox;
-    padding: 10%;
-    font-size: 15px;
-    max-height: 10px;
- }
-
- .page-wrapper {
-    display: flexbox;
-    align-items: center;
-    height: 100vh;
-    padding: 0 10%;
- }
-
- .work-selection {
-   height: 100vh;
-   padding: 0 10%;
-   bottom: 300px;
-   position: relative;
-   font-size: 25px;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'poppins' , sans-serif;
+   }
+  
+   body{ 
+      background: cornflowerblue;
+      color: white;
+      
+   }
+  
+   header{
+   position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 10%;
+      background: transparent;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+   }
    
- }
-
- .contact-selection {
-   height: 100vh;
-   bottom: -200px;
-   position: relative;
-   font-size: 25px;
- }
-
- a {
+   .logo {
+   font-size: 35px;
    color: white;
-   text-decoration: none
- }
-
- 
-
- 
- 
- 
- 
+   text-decoration: none;
+   font-weight: 600;
+   }
+  
+   nav a {font-size: 18px;
+   color: whitesmoke;
+   text-decoration: none;
+   font-weight: 300;
+   margin-left: 35px;
+   transition: .3s;
+   }
+  
+   nav a:hover { 
+      color: gray;
+   }
+  
+   .hero-banner {
+     background-image: url('20220514_145132.jpg') ;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: top;
+      display: flex;
+      align-items: flex-start;
+      padding: 10%;
+      font-size: 15px;
+      max-height: 20px;
+   }
+  
+   .page-wrapper {
+      display: flexbox;
+      align-items: center;
+      height: 100vh;
+      padding: 0 10%;
+   }
+  
+   .work-selection {
+     height: 100vh;
+     padding: 0 10%;
+     bottom: 300px;
+     position: relative;
+     font-size: 25px;
+     
+   }
+  
+   .contact-selection {
+     height: 100vh;
+     bottom: -200px;
+     position: relative;
+     font-size: 25px;
+   }
+  
+   a {
+     color: white;
+     text-decoration: none
+   }
+  
+     @media only screen and (max-width: 600px) {
+        nav {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        nav a {
+            margin: 5px 0;
+        }
+    
+        .hero-text h1 {
+            font-size: 1.5em;
+        }
+    
+        .page-wrapper,
+        .work-selection,
+        .contact-selection {
+            padding: 0.5em;
+        }
+  
+   }
+  
+   
+  
+   
+   
+   
+   
+  
